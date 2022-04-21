@@ -9,10 +9,12 @@ function getDrink() {
   fetch(url)
     .then(res => res.json()) // parse response as JSON
     .then(data => {
+      document.querySelector('.container').classList.remove('hidden')
       console.log(data.drinks)
       document.querySelector('h2').innerText = data.drinks[0].strDrink
       document.querySelector('img').src = data.drinks[0].strDrinkThumb
       document.querySelector('p').innerText = data.drinks[0].strInstructions
+      document.querySelector('input').value = ''
     })
     .catch(err => {
       console.log(`error ${err}`)
