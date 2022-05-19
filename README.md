@@ -1,7 +1,8 @@
 # cocktail-api
 
-A simple #100Devs website for the that uses the https://www.thecocktaildb.com/ API to search for cocktails.
+A simple #100Devs website for the that uses the https://www.thecocktaildb.com/ API to search for cocktails. You can type in your cocktail or select one at random.
 
-<img width="565" alt="cocktail-api" src="https://user-images.githubusercontent.com/19597150/164516272-e7562500-627f-4de7-b43b-0dff3bc9e862.png">
+<img width="588" alt="cocktail-api" src="https://user-images.githubusercontent.com/19597150/169283488-1cbea301-73d3-4e64-a408-d128aced9515.png">
+
 
 
